@@ -9,7 +9,7 @@ if (hasName) { username = username.trim(); }
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Champoins League Teams</title>
+  <title>Champions League Teams</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
     .top { margin-bottom: 20px; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
@@ -36,7 +36,7 @@ if (hasName) { username = username.trim(); }
   </form>
 </div>
 
-<h2 id="pageHeader">Champoins League teams</h2>
+<h2 id="pageHeader">Champions League Teams</h2>
 
 <div class="grid" id="teamsGrid">
 
