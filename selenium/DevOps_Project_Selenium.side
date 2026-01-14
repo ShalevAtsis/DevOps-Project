@@ -1,0 +1,119 @@
+{
+  "id": "86e14392-41b2-4c82-895f-f6a5c4f8c74c",
+  "version": "2.0",
+  "name": "DevOps_Project_Selenium",
+  "url": "https://devops-project-kvjm.onrender.com/",
+  "tests": [{
+    "id": "3648b5eb-1fae-4598-9e9e-3f2672c43373",
+    "name": "BasicTest",
+    "commands": [{
+      "id": "4924c962-f449-4450-87b5-b4d6a2d5af6a",
+      "comment": "",
+      "command": "open",
+      "target": "https://devops-project-kvjm.onrender.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4f5b516-bd23-4193-ba1e-9f1a753afea8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "876x762",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94c77da0-e86b-4da8-92fa-fc1dc4eaf6dc",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Champions League Teams",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2218cc00-7e1f-430e-a129-19348abc2002",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=pageHeader",
+      "targets": [],
+      "value": "Champions League Teams"
+    }, {
+      "id": "ced677c5-a595-4807-a796-903009e39b2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameInput",
+      "targets": [
+        ["id=usernameInput", "id"],
+        ["name=username", "name"],
+        ["css=#usernameInput", "css:finder"],
+        ["xpath=//input[@id='usernameInput']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Shalev"
+    }, {
+      "id": "b9d9dab5-3e44-4575-9414-61f9fa705de6",
+      "comment": "",
+      "command": "click",
+      "target": "id=submitButton",
+      "targets": [
+        ["id=submitButton", "id"],
+        ["css=#submitButton", "css:finder"],
+        ["xpath=//button[@id='submitButton']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0474364f-73ab-4d5c-abcf-4b7010e664bf",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=greetingText",
+      "targets": [],
+      "value": "Hello Shalev"
+    }, {
+      "id": "d3955a5f-88d0-48bf-ab64-384afeffb584",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=teamName-maccabi",
+      "targets": [],
+      "value": "Maccabi Tel Aviv"
+    }, {
+      "id": "79acb2a6-f312-4d29-a5a8-3a85c1797853",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=teamLogo-maccabi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75c8b4c9-3b7d-4ba7-84c6-4a28917d3e89",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=teamLink-maccabi",
+      "targets": [],
+      "value": "Official Site"
+    }, {
+      "id": "faa9b109-e691-4ff9-a72f-639adcb8a633",
+      "comment": "",
+      "command": "click",
+      "target": "id=teamLink-maccabi",
+      "targets": [],
+      "value": "Official Site"
+    }, {
+      "id": "5b512b29-9d03-4200-9aa5-694ff18cc459",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bb5d619d-913d-4ae7-88ed-efd211efe633",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3648b5eb-1fae-4598-9e9e-3f2672c43373"]
+  }],
+  "urls": ["https://devops-project-kvjm.onrender.com/"],
+  "plugins": []
+}
