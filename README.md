@@ -1,5 +1,11 @@
 # DevOps Project
 
+**📁 Google Drive Repository (project files, items, and descriptions):**  
+[https://drive.google.com/drive/folders/1VcZe2fjwNAaCPLafSkfivvvch8x5Ts7P?usp=sharing](https://drive.google.com/drive/folders/1VcZe2fjwNAaCPLafSkfivvvch8x5Ts7P?usp=sharing)
+
+**🌐 Public Web Application URL:**  
+[https://devops-project-kvjm.onrender.com/](https://devops-project-kvjm.onrender.com/)
+
 This project demonstrates a complete DevOps pipeline, combining application deployment, monitoring, automated testing, and performance testing.
 
 ## Project Overview
