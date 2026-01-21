@@ -74,7 +74,7 @@ if (hasName) { username = username.trim(); }
   </div>
 
   <div class="card" id="team-maccabi">
-    <h3 id="teamName-maccabi">Maccabi Tel Aviv</h3>
+    <h3 id="teamName-maccabi">Maccabi RISHON Aviv</h3>
     <img class="logo" id="teamLogo-maccabi"
      src="Maccabi_Tel_Aviv_FC.png"
      alt="Maccabi Tel Aviv FC Logo">
