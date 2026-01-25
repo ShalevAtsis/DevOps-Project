@@ -63,7 +63,7 @@ if (hasName) { username = username.trim(); }
   </div>
 
   <div class="card" id="team-milan">
-    <h3 id="teamName-milan">AC Milan</h3>
+    <h3 id="teamName-milan">AC Milano</h3>
     <img class="logo" id="teamLogo-milan" alt="AC Milan Logo"
          src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg">
     <div>
